@@ -6,6 +6,8 @@ clear all
 % time this
 tic
 
+addpath('functions/');
+
 % load 10 Redoubt LPs from April 4, 2009
 a = load('10evts_rd02z.txt');
 [a1 a2] = size(a);
